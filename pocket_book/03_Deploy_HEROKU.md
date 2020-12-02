@@ -65,10 +65,10 @@ MIDDLEWARE = [
   # 'django.middleware.security.SecurityMiddleware',
   'whitenoise.middleware.WhiteNoiseMiddleware',
   # ...
-  # Acrescentar ao final do arquivo
-  STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-  STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ]
+# Acrescentar ao final do arquivo
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ```
 
 #### 02 - Reconhecer os Ambientes
