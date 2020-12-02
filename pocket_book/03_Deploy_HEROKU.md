@@ -59,6 +59,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 ```
 Configuração do whitenoise (Servir arquivos estáticos). [Documentação](http://whitenoise.evans.io/en/stable/)
 ``` python 
+import os
+
 MIDDLEWARE = [
   # 'django.middleware.security.SecurityMiddleware',
   'whitenoise.middleware.WhiteNoiseMiddleware',
