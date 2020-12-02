@@ -118,12 +118,12 @@ heroku login
 ```
 2. Criar um app 
 ```
-heroku create "nomedoapp"
+heroku apps:create nomedaapp
 ```
 3. Configurar as variáveis de ambiente
 ```
 heroku config:set DEBUG=False
-heroku config:set DJANGO_SETTINGS_MODULES=api.settings.producao
+heroku config:set DJANGO_SETTINGS_MODULE=api.settings.producao
 heroku config:set ALLOWED_HOSTS=nomegeradopeloheroku
 heroku config:set SECRET_KEY=suakey
 
