@@ -1,8 +1,11 @@
 ## Contruindo uma API com Django Rest Framework e realizando deploy da aplicação no heroku.
 
+<<<<<<< HEAD
 ![](./assets/images/capa_01.png)
 Os vídeos explicativos estão disponíveis em uma [playlist do YouTube](https://www.youtube.com/playlist?list=PLQvwSWYdLssxtAOs2L6RPD8QkcgGbABe-)
 
+=======
+>>>>>>> a0a814fcb18e6c2cbd809ce645e95dfa6115f155
 ### Tecnologias utilizadas
 * Python 3.8.6
 * Django 3.1.3

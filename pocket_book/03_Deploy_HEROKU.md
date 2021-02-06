@@ -1,4 +1,4 @@
-## Depoly no Heroku
+## Deploy no Heroku
 
 ### Configurações iniciais
 1. Criar uma conta no Heroku (https://www.heroku.com/)
@@ -65,10 +65,17 @@ MIDDLEWARE = [
   # 'django.middleware.security.SecurityMiddleware',
   'whitenoise.middleware.WhiteNoiseMiddleware',
   # ...
+<<<<<<< HEAD
   # Acrescentar ao final do arquivo
   STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
   STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ]
+=======
+]
+# Acrescentar ao final do arquivo
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+>>>>>>> a0a814fcb18e6c2cbd809ce645e95dfa6115f155
 ```
 
 #### 02 - Reconhecer os Ambientes
