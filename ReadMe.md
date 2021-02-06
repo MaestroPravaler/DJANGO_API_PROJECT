@@ -17,6 +17,6 @@ Os vídeos explicativos estão disponíveis em uma [playlist do YouTube](https:/
 4. Extruturando o projeto e realizando o deploy no Heroku
 
 #### Observações Importantes
-O descritivo com o "passo-a-passo" do projeto, bem como todos os comandos utilizados se encontra disponível no diretório pocket_book. O principal objeto da construção destes "livros de bolso" é oferecer um "guia rápido" para consultas futuras.
+O descritivo com o "passo-a-passo" do projeto, bem como todos os comandos utilizados se encontra disponível no diretório [pocket_book](https://github.com/Robson-Maestro/DJANGO_API_PROJECT/tree/master/pocket_book). O principal objetivo da construção destes "livros de bolso" é oferecer um "guia rápido" para consultas futuras.
 
 O projeto encontra-se disponível para utilização neste [link](https://djapidemo.herokuapp.com/)
